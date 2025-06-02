@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: 'Courier New', Courier, monospace;
+            padding: 10px;
+            background: #ffffff;
+        }
+        
+        .header {
+            padding: 30px;
+            text-align: center;
+            background: white;
+        }
+
+        .header h1 {
+            font-size: 50px;
+        }
+        .header #logo {
+            float: left;
+        }
+        .header #moto {
+            float: left;
+        }
+        .header #top_menu {
+            float: right;
+        }
+        .header #top_menu li {
+            display:inline;
+            color: #797979;
+        }
+
+        .topnav {
+            overflow: hidden;
+            background-color: #ffffff;
+            border-bottom: solid 2px black;
+            margin-top: 50px;
+            display: flex;
+            justify-content: center;
+        }
+
+        .topnav a {
+            float: left;
+            display: block;
+            color: #797979;
+            text-align: center;
+            padding: 15px 30px;
+            text-decoration: none;
+        }
+
+        .topnav a:hover {
+            background-color: #ffffff;
+            color: black;
+            font-weight: bold;
+            
+        }
+  
+        p img {
+    vertical-align: middle; 
+                }
+
+        .footer {
+            padding: 20px 0 0 15px;
+            border-top: solid 3px gray;
+            clear: both;
+            margin-top: 100px;
+        }
+
+        @media screen and (max-width: 800px) {
+            .leftcolumn, .rightcolumn {
+                width: 100%;
+                padding: 0;
+            }
+        }
+
+        @media screen and (max-width: 400px) {
+            .topnav a {
+                float: none;
+                width: 100%;
+            }
+        }
+        .footer #address {
+            float: left;
+        }
+        .footer #link {
+            float:right;
+        }
+       .footer #company_info {
+            margin-top: 80px;
+        }
+        .footer #company_info li {
+            margin-top: 2px;
+        }
+        .footer #link h3 {
+            font-size: 16px;
+        }
+        .footer #link select {
+            margin: 5px 0 0 50px;
+            width: 120px;
+            height: 25px;
+            font-size: 11px;
+        }
+        .footer #icons {
+            margin-top: 5px;
+            text-align: right;
+        }
+        #footer_menu li {
+            list-style-type: none;
+        }
+        #company_info li {
+            list-style-type: none;
+            float: left;
+        }
+        #customer {
+            float: left;
+        }
+       
+        section {
+            margin: 50px;
+            padding: 10px;
+        }
+
+        .com {
+            margin: 20px 1px;
+            padding: 5px 20px 5px 1px;
+            border: solid 2px rgb(202, 202, 202);
+            display: flex;
+            gap: 30px;
+        }
+        h3 {
+            color: #898989;
+            text-align: center;
+            margin-top: 5px;
+        }
+        .article {
+            border: solid 2px rgb(195, 195, 195);
+            border-radius: 10%;
+            float: left;
+            width: 350px;
+            height: 140px;
+            background-color: #ffffff;
+            margin: 50px 30px;
+            text-align: center;
+            box-shadow: 5px 5px 10px rgb(161, 161, 161);
+        }
+        .article li {
+            margin: 2px;
+            text-align: center;
+
+        }
+        .article ul {
+            margin-top: 10px;
+            list-style-type: none;
+        }
+        
+        h2 {
+            margin-bottom: 15px;
+        }
+
+        .margin {
+           display: flex;
+           justify-content: center;
+        }
+        .topnav a.active {
+    color: black; 
+    font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    
+    <div class="header">
+        <a href="index.html">
+        <img id="logo" src="이미지 복사본 2/final_logo.png" width="126px" height="57px">
+        </a>
+            <img id="moto" src="이미지 복사본 2/final_subject.png" width="200" height="50">
+            <ul id="top_menu">
+                <li><a href="page1.html">로그인 ∙ </a></li>
+                <li><a href="page2.html">회원가입 ∙ </a></li>
+                <li><a href="page3.html">검색 ∙ </a></li>
+                <li><a href="page4.html">프로필 ∙   </a></li>
+                <li><a href="page4.html">글 작성하기  </a></li>
+
+            </ul>
+            <div class="clear"></div>
+            <div class="line"></div>
+    </div>
+
+    <div class="topnav">
+        <a href="index.html">추천</a>
+        <a href="page1daily.html">데일리 룩</a>
+        <a href="page2community.html">커뮤니티</a>
+        <a href="page3center.html">고객센터</a>
+        <a href="page4mypage.html">마이페이지</a>
+    </div>
+      
+     
+    <section class="s">
+        <h2>데일리 룩</h2>
+        <p><img src="이미지 복사본 2/image 394.png" width="160" height="160">
+            <img src="이미지 복사본 2/image 393.png" width="160" height="160">
+             <img src="이미지 복사본 2/image 387.png" width="160" height="160">
+              <img src="이미지 복사본 2/image 397.png" width="160" height="160">
+               <img src="이미지 복사본 2/image 388.png" width="160" height="160">
+             
+             
+               <br>
+               ＃ 여름 출근룩 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+               ＃ 여름 출근룩 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+               ＃ 장마 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+               ＃ 장마 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+               ＃ 여자 여름옷 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+           </p>
+    </section><br><br><br>
+
+    <section>
+        <h2>커뮤니티</h2>
+        <section class="com">
+            <div class="d">
+                <h4>6. 여름옷 추천해주세요!</h4>
+            </div>
+            <div class="d">
+                <img src="이미지 복사본 2/image 389.png" width="100" height="100">
+            </div>
+            <div class="d">
+                <p>💬340</p>
+            </div>
+            <div class="d">
+                <p>♡21</p>
+            </div>
+            <div class="d">
+                <p>18시간 전</p>
+            </div>
+        </section>
+    
+        <section class="com">
+            <div class="d">
+                <h4>7. 여름옷 추천해주세요!</h4>
+            </div>
+            <div class="d">
+                <img src="이미지 복사본 2/image 385.png" width="100" height="100">
+            </div>
+            <div class="d">
+                <p>💬340</p>
+            </div>
+            <div class="d">
+                <p>♡21</p>
+            </div>
+            <div class="d">
+                <p>18시간 전</p>
+            </div>
+        </section>
+    </section>
+    
+<div class="footer">
+    <article id="address">
+        <ul id="footer_menu">
+            <a href="index.html">
+             <li><img id="logo" src="이미지 복사본 2/final_logo.png" width="126px" height="57px"></li>
+            </a>
+        </ul>
+        <ul id="company_info">
+        <li><img src="이미지 복사본 2/Group 1707481623 복사본.png"></li>
+        <li><img src="이미지 복사본 2/final_footer article.png"></li>
+        </ul>
+    </article>
+    <article id="link">
+        <h3>고객센터 1234-5678</h3>
+        <select>
+            <option>네이버</option>
+            <option>다음</option>
+            <option>구글</option>
+        </select>
+        <div id="icons">
+            <img src="이미지 복사본 2/인스타 아이콘 복사본.png" width="23">
+            <img src="이미지 복사본 2/트위터 아이콘 복사본.png" width="23">
+            <img src="이미지 복사본 2/페이스북아이콘 복사본.png" width="23">
+        </div>
+    </article>
+</div> 
+<script>
+var currentUrl = window.location.pathname;
+var menuLinks = document.querySelectorAll('.topnav a');
+menuLinks.forEach(function(link) {
+    var linkUrl = link.getAttribute('href');
+    if (currentUrl.endsWith(linkUrl) || (linkUrl === '/' && (currentUrl === '/' || currentUrl === '/index.html'))) {
+        link.classList.add('active');
+    }
+});
+</script>
+</body>
+</html>
